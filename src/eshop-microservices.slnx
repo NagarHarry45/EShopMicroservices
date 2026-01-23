@@ -1,1 +1,31 @@
-<Solution />
+<Solution>
+  <Folder Name="/ApiGateways/">
+    <Project Path="ApiGateway/YarpApiGateway/YarpApiGateway.csproj" Id="045d5f65-c9aa-4181-92d6-791f53921fe0" />
+  </Folder>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlocks/BuildingBlocks.Messaging/BuildingBlocks.Messaging.csproj" Id="547c5b2c-1e80-4a13-9199-4ce587384299" />
+    <Project Path="BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj" Id="552fe3d2-c275-4923-a042-217a2b54fa55" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Basket/">
+    <Project Path="Services/Basket/Basket.API/Basket.API.csproj" Id="aac20999-c163-4b7d-8a2c-07e1e2d23d71" />
+  </Folder>
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Services/Catalog/Catalog.API/Catalog.API.csproj" Id="5a4c4019-05e0-4042-8c6e-776423f6be66" />
+  </Folder>
+  <Folder Name="/Services/Discount/">
+    <Project Path="Services/Discount/Discount.Grpc/Discount.Grpc.csproj" Id="7da1d33d-9793-4467-bcad-2cc908ad6831" />
+  </Folder>
+  <Folder Name="/Services/Ordering/">
+    <Project Path="Services/Ordering/Ordering.API/Ordering.API.csproj" Id="9fe17bfd-48aa-494c-830f-d1a0dc56a1c7" />
+    <Project Path="Services/Ordering/Ordering.Application/Ordering.Application.csproj" Id="6e2bfe05-2a94-47ee-82ac-7c8b5f218cd6" />
+    <Project Path="Services/Ordering/Ordering.Domain/Ordering.Domain.csproj" Id="56d34528-3550-4b25-81b1-cfc78ba6f83b" />
+    <Project Path="Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj" Id="544ed0d1-0b9f-4485-94b6-36974bbfe724" />
+  </Folder>
+  <Folder Name="/WebApps/">
+    <Project Path="WebApps/Shopping.Web/Shopping.Web.csproj" Id="a0aa8c54-ea52-4def-ad3d-26844ad12e88" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
